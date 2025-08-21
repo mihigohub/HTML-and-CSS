@@ -1,0 +1,92 @@
+body{
+    background-color: rgb(59, 19, 19);
+}
+.calculator{
+    background-color: #5a615a;
+    width: 25%;
+    height: auto;
+    padding-left: 1em;
+    padding-bottom: 1em;
+    border-radius: 1em;
+}
+.calculators{
+    background-color: #5a615a;
+    width: 30%;
+    height: auto;
+    padding-left: 1em;
+    padding-bottom: 1em;
+    border-radius: 1em;
+}
+.row>button{
+    width: 5em;
+    height: 2.5em;
+    margin-bottom: 2px;
+    background-color: rgb(84, 74, 74);
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    color: rgb(249, 248, 248);
+}
+.row>button:hover,details>p>button:hover,.firstline>button:hover,
+ .thirdline>button:hover,
+ .msrow>button:hover{
+    background-color: rgb(122, 111, 111);
+    border-radius: 1em;
+    color: black;
+}
+.msrow>button{
+    width: 39px;
+    margin: 2px;
+    border: none;
+    outline: none;
+    background-color: #5a615a;
+    color: white;
+}
+input[type="number"]{
+    background-color: #5a615a;
+    color: white;
+    width: 85%;
+    margin-bottom: 1em;
+    height: 2em;
+    font-size: 25px;
+    text-align: right;
+}
+.inputs::-webkit-outer-spin-button, .inputs::-webkit-inner-spin-button{
+    appearance: none;
+}
+.headers{
+    display: flex;
+}
+summary{
+    padding-right: 10px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 3em;
+}
+details>p>button{
+    color: rgb(19, 19, 19);
+    background-color: #5a615a;
+    border: none;
+    outline: none;
+}
+details>p>button>a{
+    text-decoration: none;
+    color: rgb(12, 12, 12);
+    font-size: 20px;
+}
+.firstline>button, .thirdline>button{
+    background-color: #5a615a;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 18px;
+    margin-right: 2em;
+}
+hr{
+    width: 90%;
+    margin-left: 0;
+    border-color: #8e958e;
+}
+#equal{
+    background-color: rgb(57, 173, 173);
+}

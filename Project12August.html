@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            background-color: rgb(21, 1, 49);
+            color: rgb(195, 185, 185);
+        }
+        .logo{
+            font-size: 4em;
+            color: rgb(6, 2, 49);
+            margin-left: 10px;
+        }
+        .logos{
+            background-color: rgb(221, 232, 228);
+            width: 7.5em;
+            height: auto;
+            border-radius: 50%;
+        }
+        .logo2{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 9.5px;
+            margin: 0 0 0 2em;
+            padding: 0 0 1.5em 0;
+            color: black;
+        }
+        header{
+            background-color: rgb(10, 6, 61);
+            display: flex;
+        }
+        .nav a{
+            padding: 3em 0 0 5em;
+            font-size: 2em;
+            color: rgb(213, 165, 165);
+            text-decoration: none;
+        }
+        .nav{padding: 1em 0 0 5em;}
+        .section{
+            display: flex;
+            padding: 2em;
+            justify-content: center;
+            background-color: rgb(44, 17, 34);
+        }
+        .description{
+            margin-left: 2em;
+        }
+        .b2{
+            margin: 2em;
+            background-color: rgb(25, 8, 117);
+            border-radius: 5px;
+            color: rgb(114, 150, 182);
+            height: 3em;
+            width: 6em;
+        }
+        .intro{
+            text-align: center;
+        }
+        .features{
+            display: flex;
+            width: 100%;
+            justify-content: center;
+            background-color: rgb(28, 28, 48);
+        }
+        .card1{
+            background-color: rgb(83, 58, 106);
+            width: auto;
+            height: auto;
+            margin: 1em;
+
+        }
+        .card2{
+            background-color: rgb(63, 63, 106);
+            width: auto;
+            height: auto;
+            margin: 1em;
+        }
+        .card3{
+            background-color: rgb(82, 70, 70);
+            width: auto;
+            height: auto;
+            margin: 1em;
+        }
+        .star{
+            color: yellow;
+        }
+        .testimonial{
+            padding: 2em 2em;
+            background-color: rgb(20, 3, 39);
+            margin: 0 25em 0 25em;
+            text-align: center;
+        }
+        .review{
+            padding: 2em;
+            text-align: center;
+        }
+        footer{
+            background-color: rgb(35, 19, 49);
+            padding-bottom: 5px;
+        }
+        a:hover{
+            color: azure;
+        }
+        button:hover{
+            color: rgb(228, 228, 232);
+            background-color: black;
+        }
+        .table{
+            border-color: rgb(149, 153, 192);
+            border-collapse: collapse;
+            grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
+            width: 50%;
+            margin: auto;
+
+        }
+        th{
+            margin: auto;
+            padding: 3em;
+        }
+        .stock{
+            background-color: rgb(113, 119, 130);
+            padding: 1em;
+            margin: 0 16em;
+            border-radius: 1em;
+            color: black;
+        }
+        img{
+            height: 18em;
+            width: 14em;
+            border-radius: 3em 3em 1em 2em;
+            margin-left: 3em;
+            padding-top: 2em;
+            padding-right: 2em;
+            
+        }
+        .b1{
+            padding-left: 2em;
+            margin-left: 2em;
+            margin-top: 2em;
+            background-color: rgb(115, 115, 158);
+            height: 2em;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logos" id="logos">
+            <div>
+                <span class="logo">SE</span>
+            </div>
+            <div class="logo2"><p>Electronic Shop</p></div>
+        </div>
+        <div class="nav">
+            <a href="">Home</a>
+            <a href="">Features</a>
+            <a href="">Pricing</a>
+        </div>
+    </header>
+    <div class="stock"><h1 class="intro">Products in our store!</h1></div>
+    <div class="section">
+        <div><h3>Google Pixel 4a</h3>
+            <img src="image/6431964_sd.webp " alt="Google Pixel 4a" class="phone">
+        </div>
+        <div class="description"> <h4>Description</h4>
+            <p>This is a smart phone developed by Google ink and powered by Android Operating</p>
+            <p>System. It's well known for its high performance with its uncomparable processor.</p>
+            <p>It has a RAM of 6GB and storage of 128GB</p>
+            <p>
+                <button class="b2">Price</button>
+                <button class="b2">Buy now</button>
+                <button class="b2">Learn more</button>
+            </p>
+        </div>
+    </div>
+    <div class="features">
+        <div class="card1">
+            <h2>Google pixel 5a</h2>
+            <img src="image/Google-Pixel-5a-tag-1.webp" alt="Pixel 5a" class="phone"><br>
+                <button class="b1">Buy now</button>
+                <button class="b1">Learn more</button>
+
+        </div>
+        <div class="card2">
+            <h2>Google Pixel 7a</h2>
+            <img src="image/google-pixel-7a-render-sea.avif" alt="Pixel 7a" class="phone">
+            <p>
+                <button class="b1">Buy now</button>
+                <button class="b1">Learn more</button>
+            </p>
+        </div>
+        <div class="card3">
+            <h2>Google Pixel 9 Pro XL</h2>
+            <img src="image/Google-Pixel-9-Pro-XL-512GB.jpg" alt="Pixel 9 Pro XL" class="phone">
+            <p>
+                <button class="b1">Buy now</button>
+                <button class="b1">Learn more</button>
+            </p>
+        </div>
+    </div>
+    <div class="testimonial">
+        <h1>Customers' Satisfaction</h1>
+        <div class="review"><h3>Customer 1</h3>Best product ever!  <span class="star">&#9733&#9733&#9733&#9733</span>&#9733</div>
+        <div class="review"> <h3>Customer 2</h3>Helped my business grow! <span class="star">&#9733&#9733&#9733&#9733&#9733</span></div>
+    </div>
+    <div class="pricing">
+        <table class="table" border="3">
+            <tr>
+                <th>Basic</th>
+                <th>Pro</th>
+                <th>Enterprise</th>
+            </tr>
+        </table>
+    </div>
+    <footer>
+        <h2>Contacts:</h2>
+        <p>Phone number: +250785093319</p>
+        <p>Email address: mihigoe1997@gmail.com 
+            <button><a href="mailto: mihigoe1997@gmail.com" target="_blank">mail me</a></button></p>
+        <p>Developed by Etienne &copy; All Rights reserved - 2025</p>
+    </footer>
+    
+</body>
+</html>

@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container, header, footer{
+    background-color: white;
+    padding: 2em;
+    margin: 0 15em;
+}
+
+body{
+    background-color: black;
+}
+img{
+    height: auto;
+    width: 100%;
+    border-radius: 10% 0 0 0;
+}
+header{
+    background-color: rgb(220, 243, 212);
+    border-radius: 3em;
+    margin: 0 3em;
+    display: inline-block;
+}
+header>a{
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 2.5em;
+    color: black;
+    text-transform: uppercase;
+}
+.intro{
+    display: flex;
+    margin-top: 3em;
+}
+.div1{
+    text-align: center;
+    margin-right: 2em;
+    margin-top: 2em;
+}
+.div1>button{
+    background-color: rgb(178, 13, 13);
+    border-radius: 1em;
+    width: 8em;
+    padding: 0.5em;
+    margin-top: 2em;
+    border: none;
+    color: white;
+}
+h1, h2, h3{
+    text-align: center;
+    margin: 2em;
+}
+.services{
+    display: flex;
+}
+.frontend, .backend{
+    display: block;
+}
+.frontend, .backend{
+    background-color: rgb(224, 227, 222);
+    border-radius: 2em;
+    padding-bottom: 2em;
+    text-align: center;
+    margin-right: 1em;
+    text-transform: capitalize;
+}
+
+.frontend>div>h2, .backend>div>h2{
+    color: rgb(76, 184, 76);
+}
+.project{
+    text-align: center;
+    border-style: groove;
+    margin: 0 8em;
+    border-radius: 2em;
+    padding: 1em;
+    box-shadow: 10px 10px rgb(217, 207, 207);
+}
+.project button{
+    background-color: rgb(210, 12, 58);
+    width: 10em;
+    height: 3em;
+    color: white;
+    border-radius: 3em;
+    margin: 1em;
+    border-color: rgb(210, 12, 58);
+    outline: none;
+    border: none;
+}
+.foot{
+    display: flex;
+}
+.foot div{
+    padding: 1em;
+    margin-right: 3em;
+}
+.media>p>button{
+    padding: 0.5em;
+    margin-bottom: 2em;
+    border-radius: 1em;
+    width: 10em;
+    height: 3em;
+    outline: none;
+    background-color: rgb(199, 223, 215);
+    box-shadow: 0 3px 0 rgb(206, 206, 229);
+    border: none;
+}
+footer h2{
+    text-transform: uppercase;
+}
+footer{
+    background-color: rgb(228, 239, 239);
+}
+.side{
+    display: flex;
+    width: 100%;
+}
+.side>div>p{
+    margin-bottom: 2em;
+}
+.inputs>p>input, .inputs>p>textarea{
+    border-radius: 1em;
+    outline: none;
+    border: none;
+    padding: 0 1em;
+}
+.inputs>p>input{
+    height: 2em;
+    width: 17em;
+}
+.inputs>p>button{
+    background-color: rgb(164, 16, 16);
+    border-radius: 1.5em;
+    width: 13em;
+    padding: 1em;
+    margin-top: 2em;
+    border: none;
+    color: white;
+}

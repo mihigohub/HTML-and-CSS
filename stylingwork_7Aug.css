@@ -1,0 +1,101 @@
+.main{
+    
+    background-image: url("image/pngtree-website-technology-ray-blue-background-picture-image_2443542.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 60px;
+    
+}
+.navbar, .navbar a{
+    text-align: center;
+    padding: 10px 0 5px 0;
+    width: 100%;
+    margin: 10px;
+    color: white;
+}
+.second{
+    display: flex;
+    background-repeat: no-repeat;
+    padding: 80px;
+    margin: 40px;
+    width: 80%;
+    height: 50%;
+
+}
+
+.secondblock{
+    display: flex; 
+    justify-content: space-around;
+    background-color: aquamarine;
+    background-position: center;
+    margin: 0px 25px;
+
+}
+.secondblock img{
+    border-radius: 2em;
+    width: 15em;
+}
+.div1{
+    margin: 10px;
+}
+.department{
+
+    width: 90%;
+}
+h2{
+    background-color: rgb(33, 37, 59);
+    color: white;
+}
+.symbol{
+    color:red;
+    background-color: rgb(33, 37, 59);
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+}
+
+.container .content{
+    margin-top: 5em;
+    width: 50%;
+    color: #ffffff;
+    margin-left: 4em;
+
+}
+
+.container .image img{
+    width: 250px;
+    border-radius: 1em;
+    margin-right: 10em;
+}
+.apply{
+    background: orange;
+}
+  a:hover{
+    color: #a98585;
+}
+.apply:hover{
+    color: green ;
+
+}
+.navbar a{
+    text-decoration: none;
+}
+.symbol:hover{
+    background: rgb(162, 211, 162);
+}
+.symbol{
+    margin-right: 2px;
+    width: auto;
+}
+.listing ::before{
+        content: ">";
+        color: red;
+        padding: 5px;
+        list-style-type: none;
+}
+.listing{
+    list-style-type: none
+}

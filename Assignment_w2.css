@@ -1,0 +1,97 @@
+body{
+    background: linear-gradient(to right, rgb(68, 129, 220), rgb(241, 61, 241));
+}
+.main{
+    display: flex;
+    background-color: rgb(36, 35, 35);
+    color: rgb(189, 181, 181);
+    margin: 1em;
+}
+#menubar{
+    background-color: rgb(27, 23, 23);
+    padding: 4em;
+    font-size: larger;
+    color: white;
+    display: block;
+    position: fixed;
+}
+#menubar a{
+    text-decoration: none;
+    color: white;
+}
+#menubar a:hover{
+    background-color: black;
+    padding: 10px 2em;
+    font-size: small;
+    color: aquamarine;
+}
+.navbar{
+    padding: 1em;
+}
+.icon{
+    margin-bottom: 2em;
+    padding: 1px;
+    bottom: 3px;
+    width: 20%;
+    display: flex;
+}
+.profile{
+    top: 0;
+}
+summary{
+    display: flex;
+    cursor: pointer;
+    margin-right: 1px;
+}
+.container{
+    margin: 1em 4em 0 20em;
+    width: 100%;
+    
+    
+}
+.projects{
+    display: flex;
+    margin: 3px;
+}
+.explanation{
+    margin: 0 1em;
+}
+button{
+    border-radius: 1em;
+    padding: 1em;
+    color: white;
+}
+#new{
+    padding: 0 10px;
+    border-radius: 10px;
+    background-color: rgb(234, 18, 234);
+    color: white;
+}
+#tempelate{
+    background-color: rgb(45, 41, 41);
+    border-color: white;
+}
+#connect{
+    border: none;
+    background-color: rgb(9, 9, 9);
+}
+#image{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.chevron{
+    margin: 0 7px;
+    rotate: 90deg;
+}
+#unknown, #twitter, #linkedin, #github, #signals{
+    height: 15px;
+    width: 15px;
+    border-radius: 2px;
+    margin: 3px;
+    bottom: 0;
+}
+.theme{
+    margin: 0 2em;
+}

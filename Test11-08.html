@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>My-Portforio</title>
+    <style>
+*{
+    margin: 0;
+    padding: 0;
+}
+        .header, .about, .project, .navbar, .footer{
+            width: 100%;
+        }
+        .navbar{
+            display: inline-block;
+            background-color: rgb(74, 211, 115);
+        }
+        .header{
+            background-color: rgb(162, 220, 201);
+            /* padding: 1em; */
+            display: flex;
+        }
+        h1{
+            margin: 0 5em;
+
+        }
+        .logo{
+            font-size: xx-large;
+        }
+        .about{
+            display: flex;
+            margin: 30px;
+
+        }
+        .project{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+        }
+        @media (max-width: 700px) {
+            .project {
+                grid-template-columns: 1fr;
+            }
+        }
+        .class1, .class2, .class3{
+            padding: 5em;
+            margin: 5px;
+            text-align: center;
+        }
+        
+        .footer{
+            background-color: rgb(201, 227, 128);
+            /* padding: 1em; */
+            border: 5px;
+            border-width: 3px;
+            border-color: brown;
+
+        }
+        .class1{
+            background-color: blue;
+            
+        }
+        .class2{
+            background-color: green;
+        }
+        .class3{
+            background-color: orange;
+        }
+        .class1:hover{
+            background-color: cornsilk;
+        }
+        .class2:hover{
+            background-color: cornsilk;
+        }
+        .class3:hover{
+            background-color: cornsilk;
+        }
+        .item {
+            background: lightblue;
+             padding: 20px;
+             text-align: center;
+        }
+        .profile, .text{
+             padding: 1em;
+             margin: 1em;
+        }
+        body{
+            background-color: rgb(192, 182, 202);
+        }
+        .navbar a{
+            text-decoration: none;
+            padding: 1em;
+            justify-content: center;
+            display: inline-block;
+            align-content: space-between;
+        }
+        .links, .contact{
+            padding: 2em;
+        }
+        #myself{
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    
+    <header class="header">
+        <div class="logo"> SDS</div>
+        <div><h1>Welcome to my portfolio</h1></div>
+    </header>
+    <nav class="navbar">
+        <a href="">Home</a>
+        <a href="">About</a>
+        <a href="">Project</a>
+        <a href="">Contacts</a>
+    </nav>
+    <div class="about">
+        <div class="profile">
+            <img src="image/myself.jpeg" alt="Profile Picture" id="myself">
+        </div>
+        <div class="text">
+            <h1>About me</h1>
+            <p>I'm Etienne SEMIHIGO, a student of Software Development at Future Focus Academy.</p>
+            <p>Currently, I'm studying html and CSS even though they are some trick tags to remember</p>
+            <p>and their elements and properties, but learning them is very fun and interesting.</p>
+        </div>
+    </div>
+
+    <div class="project">
+        <div class="class1">Card 1
+        </div>
+        <div class="class2">Card 2</div>
+        <div class="class3">Card 3</div>
+
+    </div>
+    <footer class="footer"> 
+        <h2 class="hh">contact info and links</h2>
+        <div class="contact">
+            <p>contact info:</p>
+            <p>email: mihigoe1997@gmail.coman</p>
+            <p>Phone number: +250785093319</p>
+        </div>
+        <div class="links">
+            <p>Links</p>
+
+            
+        </div>
+    </footer>
+
+</body>
+</html>
