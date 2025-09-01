@@ -35,6 +35,17 @@ footer {
 .platforms>button{
     background: linear-gradient(150deg, blue, #ee87ee,#ccfead,#f23);
 }
+.map{
+    text-align: center;
+    margin: 2em 0;
+    height: auto;
+    width: 100%;
+}
+.frame{
+    border-radius: 20px;
+    width: 80%;
+    height: auto;
+}
 @media (min-width:100px) and (max-width: 767px) {
     * {
         padding: 0;
