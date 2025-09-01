@@ -11,32 +11,38 @@
 
 <body>
     <header class="header">
-        <div class="logo">
-            <h1>S</h1>
+        <div class="headerdiv">
+            <div class="logo">
+                <h1>S</h1>
+            </div>
+            <div class="welcometext">
+                <h1>Welcome To My Portfolio Website</h1><br>
+            </div>
         </div>
         <details>
             <summary>&#8801</summary>
             <ul class="navb">
-                <li><a href="Home.html">Home</a></li>
-                <li><a href="About.html">About</a></li>
-                <li><a href="Projects.html">Projects</a></li>
-                <li><a href="Services.html">Services</a></li>
-                <li><a href="Contacts.html">Contacts</a></li>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contacts">Contacts</a></li>
+                </ul>
             </ul>
         </details>
         <nav class="navbar">
             <ul>
-                <li><a href="Home.html">Home</a></li>
-                <li><a href="About.html">About</a></li>
-                <li><a href="Projects.html">Projects</a></li>
-                <li><a href="Services.html">Services</a></li>
-                <li><a href="Contacts.html">Contacts</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contacts">Contacts</a></li>
             </ul>
         </nav>
     </header>
-
+    <h1 id="home"></h1>
     <div class="main" id="mainhome">
-        <h1>Welcome To My Portfolio Website</h1><br>
         <div>
             <p>Hi&#128075 I'm Etienne SEMIHIGO</p>
             <p>a Software Development student at Future Focus Academy.</p>
@@ -48,7 +54,231 @@
             <button>GET MY CV</button>
         </div>
     </div>
+    <h1 id="about">About</h1>
+    <div class="main" id="mainabout">
+        <div class="myself">
+            <img src="/Assignment/HTML_and_CSS_final_project/Images/myself.jpeg" alt="profile" id="myself">
+        </div>
+        <div>
+            <p>Hi&#128075 I'm Etienne SEMIHIGO</p>
+            <p>a Software Development student at Future Focus Academy.</p>
+            <p>Learning these things is very interesting</p>
+            <p>especially programming in different languages like JAVA, Python, HTML, CSS, etc.</p>
+            <p>I hope at the end of this leaning session, there will be an opened gate</p>
+            <p>In this industry. Technology is the best thing nowdays.</p>
+            <button>LET'S TALK</button>
+            <button>GET MY CV</button>
+        </div>
+    </div>
+    <div class="skills">
+        <h1>Skills Profiency</h1>
+        <h3>HTML5 <p><i class="fa-solid fa-code"></i></p>
+        </h3>
+        <div>
+            <div class="html">90%</div>
+        </div>
+        <h3>CSS3
+            <p><i class="fa-regular fa-file-brackets-curly"></i></p>
+        </h3>
+        <div>
+            <div class="css">87%</div>
+        </div>
+        <h3>Responsive Design
+            <p><i class="fa-light fa-globe-pointer"></i></p>
+        </h3>
+        <div>
+            <div class="design">88%</div>
+        </div>
+        <h3>Accessibility
+            <p><i class="fa-duotone fa-regular fa-browser"></i></p>
+        </h3>
+        <div>
+            <div class="accessibility">80%</div>
+        </div>
+        <h3>CSS Animation and transition</h3>
+        <div>
+            <div class="animation">92%</div>
+        </div>
+    </div>
+    <h1 id="projects">Projects</h1>
+    <div class="main" id="mainproject">
+        <div>
+            <h2>Personal Portfolio Website</h2>
+            <p>My own responsive portfolio with about, </p>
+            <p>projects, and contact form.</p>
+            <button>Read more <span>&plus;</span></button>
+        </div>
+        <div>
+            <h2>E-commerce Store</h2>
+            <p>Shopping cart, product pages, checkout (with mock or real payment integration).</p>
+            <button>Read More <span>&plus;</span></button>
 
+        </div>
+        <div>
+            <h2>Blog/ New Platform</h2>
+            <p>Create, read, update, delete post with categories and comments</p>
+            <button>Read more <span>&plus;</span></button>
+        </div>
+        <div>
+            <h2>School Management System</h2>
+            <p>Student registration, teacher dashboard, grades, and reports.</p>
+            <button>Read More &plus;</button>
+        </div>
+        <div>
+            <h2>Restaurant Website with online ordering</h2>
+            <p>Menu, reservations, order system.</p>
+            <button>Read more <span>&plus;</span></button>
+        </div>
+        <div>
+            <h2>Task manager</h2>
+            <p>To-Do app with user accounts, deadalines, and progress tracking.</p>
+            <button>Read more <span>&plus;</span></button>
+        </div>
+        <div>
+            <h2>Weather app</h2>
+            <i class="fa-solid fa-sun-cloud"></i>
+            <p>Fetches real-time weather data from an API, shows forecast by location.</p>
+            <button>Read more <span>&plus;</span></button>
+        </div>
+        <div>
+            <h2>Chat application</h2>
+            <p>Real-time messaging using WebSockets (or Firebase).</p>
+            <button>Read more <span>&plus;</span></button>
+        </div>
+        <div>
+            <h2>Online quiz/ Learning platform</h2>
+            <p>Interactive quizzes, scoring system, and user progress.</p>
+            <button>Read more <span>&plus;</span></button>
+        </div>
+    </div>
+    <h1 id="services">Services</h1>
+    <h2 id="h2">Here are the list of services I provide, If you want any of them, Contact me.</h2>
+    <div class="main" id="mainservice">
+        <div>
+            <div class="image"><img src="Images/responsive_design.png" alt="Responsive design"></div>
+            <div>
+                <h2>Responsive design & development</h2>
+                <p>Mobile-first, clean UI/UX</p>
+                <button>Develop it for me</button>
+            </div>
+        </div>
+        <div>
+            <div class="image">
+                <img src="Images/Website_design.png" alt="Website design">
+            </div>
+            <div>
+                <h2>Custom website design and development</h2>
+                <p>Business websites, blogs, portfolios, or school systems.</p>
+                <button>Develop it for me</button>
+            </div>
+        </div>
+        <div>
+            <div class="image">
+                <img src="Images/e-commerce.png" alt="E-commerce development">
+            </div>
+            <div>
+                <h2>E-commerce development</h2>
+                <p>Product catalogs, carts, and sercure chekcout.</p>
+                <button>Develop it for me</button>
+            </div>
+        </div>
+        <div>
+            <div class="image">
+                <img src="Images/API_integration.png" alt="">
+            </div>
+            <div>
+                <h2>API integration</h2>
+                <p>Connect apps with external services (maps, weather, payments, etc.).</p>
+                <button>Develop it for me</button>
+            </div>
+        </div>
+        <div>
+            <div class="image">
+                <img src="Images/Database.png" alt="Database">
+            </div>
+            <div>
+                <h2>Database design & management</h2>
+                <p>MySQL, MongoDB for storing and retrieving data.</p>
+                <button>Develop it for me</button>
+            </div>
+        </div>
+        <div>
+            <div class="image">
+                <img src="Images/web_application.png" alt="Web_application">
+            </div>
+            <div>
+                <h2>Web application development</h2>
+                <p>Dashboards, task managers, or custom tools.</p>
+                <button>Develop it for me</button>
+            </div>
+        </div>
+        <div>
+            <div class="image">
+                <img src="Images/authentication.png" alt="Authentication">
+            </div>
+            <div>
+                <h2>Authentication & security setup</h2>
+                <p>Login systems, user roles, data protection.</p>
+                <button>Develop it for me</button>
+            </div>
+        </div>
+        <div>
+            <div class="image">
+                <img src="Images/web_maintenance.png" alt="maintenance">
+            </div>
+            <div>
+                <h2>Website maintenance & updates</h2>
+                <p>Bug fixes, backups, performance improvements.</p>
+                <button>Develop it for me</button>
+            </div>
+        </div>
+        <div>
+            <div class="image">
+                <img src="Images/consulting.png" alt="Consulting">
+            </div>
+            <div>
+                <h2>Consulting & training</h2>
+                <p>Helping shcools, NGOs, or small businesses understand and use their websites.</p>
+                <button>Develop it for me</button>
+            </div>
+        </div>
+    </div>
+    <h1 id="contacts">Contact Me</h1>
+    <div class="main" id="maincontact">
+        <form action="" method="post">
+            <h2>Contact form.</h2>
+            <label for="name">First name:<span>*</span></label>
+            <p><input type="text" required></p>
+            <label for="name">Middle name: (optional)</label>
+            <p><input type="text"></p>
+            <label for="name">Last name: <span>*</span></label>
+            <p><input type="text" required></p>
+            <label for="email">Email: <span>*</span></label>
+            <p><input type="email" required></p>
+            <label for="phonenumber">Phone Number:</label>
+            <p><input type="number"></p>
+            <label for="subject">Subject:</label>
+            <select name="subject" id="">
+                <option value="">Select a subject</option>
+                <option value="">General Iquiry</option>
+                <option value="">Feedback</option>
+                <option value="">Support</option>
+            </select>
+            <p><label for="">Message:</label></p>
+            <textarea name="Message" id="" placeholder="Describe your Issue/Needs" cols="40" rows="5"></textarea>
+            <p><input type="checkbox" name="" id=""> I agree to the terms and conditions.</p>
+            <button>Send Message</button>
+            <button>Clear form</button>
+
+        </form>
+    </div>
+    <div class="map">
+        <h5><i class="fa-solid fa-location-dot"></i>Find me on the map.</h5>
+        <iframe class="frame"
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3987.4868342104496!2d30.116804073505303!3d-1.9588385367279755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2srw!4v1756723056310!5m2!1sen!2srw"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
     <footer class="footer">
         <div class="contacts">
             <h3>Contact me:</h3>

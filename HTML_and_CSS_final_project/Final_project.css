@@ -1,6 +1,11 @@
 body {
     background: linear-gradient(to bottom, rgb(181, 221, 228), rgb(205, 231, 241), rgb(212, 233, 238));
 }
+* {
+    box-sizing: border-box;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+}
 
 button {
     cursor: pointer;
@@ -61,6 +66,17 @@ a:hover{
     background: linear-gradient(130deg, #faa, #ff23, rgb(60, 60, 239), rgb(238, 61, 61));
     border-radius: 10px;
 }
+.headerdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 2em;
+    width: 100%;
+}
+.welcometext>h1{
+    font-size: 25px;
+    color: white;
+}
 @media (min-width:100px) and (max-width: 767px) {
     * {
         padding: 0;
@@ -103,23 +119,29 @@ summary{
     }
 
     .header {
-        background-color: #18A8CC;
+        background-color: rgb(1, 1, 32);
         display: block;
         margin-bottom: 50px;
         position: fixed;
         width: 100%;
+        color: rgb(210, 200, 200);
     }
 
     .logo {
         border-radius: 50%;
         background: linear-gradient(200deg, #184aac, #ffaa, #dd82ad);
         text-align: center;
-        height: 100px;
-        width: 100px;
+        height: 50px;
+        width: 50px;
+        padding: 0 20px 0 20px;
         margin-left: 10px;
         margin-top: 7px;
-        font-size: 40px;
+        font-size: 25px;
         color: green;
+    }
+        .logo>h1 {
+        margin-top: 5px;
+        font-size: 25px;
     }
 
     .navbar {
@@ -308,7 +330,7 @@ ul li{
     }
 
     .header {
-        background-color: #15a2d1;
+        background-color: rgb(1, 1, 32);
         margin-bottom: 50px;
         position: fixed;
         width: 100%;
@@ -319,12 +341,16 @@ ul li{
         border-radius: 50%;
         background: linear-gradient(200deg, #184aac, #ffaa, #dd82ad);
         text-align: center;
-        height: 100px;
-        width: 100px;
+        height: 50px;
+        width: 50px;
         margin-left: 10px;
         margin-top: 7px;
         font-size: 40px;
         color: green;
+    }
+        .logo>h1 {
+        margin-top: 5px;
+        font-size: 25px;
     }
 
     .navbar {
@@ -523,7 +549,7 @@ ul li{
     }
 
     .header {
-        background-color: #15a2d1;
+        background-color: rgb(1, 1, 32);
         margin-bottom: 1px;
         display: flex;
         position: fixed;
@@ -535,13 +561,16 @@ ul li{
         border-radius: 50%;
         background: linear-gradient(200deg, #184aac, #ffaa, #dd82ad);
         text-align: center;
-        height: 100px;
-        width: 100px;
+        height: 50px;
+        width: 50px;
         margin-left: 10px;
         margin-top: 7px;
         font-size: 40px;
         color: green;
-
+    }
+    .logo>h1 {
+        margin-top: 5px;
+        font-size: 25px;
     }
 
     .navbar {
