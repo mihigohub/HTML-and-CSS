@@ -1,0 +1,684 @@
+body {
+    background: linear-gradient(to bottom, rgb(181, 221, 228), rgb(205, 231, 241), rgb(212, 233, 238));
+}
+
+button {
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgb(34, 210, 127);
+}
+
+span {
+    color: red;
+    font-size: 20px;
+}
+
+/* Designing Home file */
+footer {
+    background-color: rgb(15, 3, 69);
+    padding: 20px;
+    margin: 0;
+    display: block;
+    color: white;
+}
+
+.footer>div {
+    padding-bottom: 30px;
+    height: auto;
+}
+
+.logo>h1 {
+    margin-top: 5px;
+}
+.platforms>button{
+    background: linear-gradient(150deg, blue, #ee87ee,#ccfead,#f23);
+}
+@media (min-width:100px) and (max-width: 767px) {
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    .navb{
+    display: block;
+    text-align: left;
+    padding: 10px;
+}
+details{
+    padding: 10px;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+summary{
+    font-size: 40px;
+    display: inline-block;
+}
+        ul {
+    list-style-type: none;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+    h1,
+    h2,
+    h3 {
+        width: auto;
+        text-align: center;
+    }
+
+    .header {
+        background-color: #18A8CC;
+        display: block;
+        margin-bottom: 50px;
+        position: fixed;
+        width: 100%;
+    }
+
+    .logo {
+        border-radius: 50%;
+        background: linear-gradient(200deg, #184aac, #ffaa, #dd82ad);
+        text-align: center;
+        height: 100px;
+        width: 100px;
+        margin-left: 10px;
+        margin-top: 7px;
+        font-size: 40px;
+        color: green;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .navbar a {
+        text-decoration: none;
+    }
+
+    .main {
+        padding: 30px;
+        text-align: center;
+        height: auto;
+        display: block;
+    }
+
+    .myself {
+        padding-top: 10em;
+    }
+
+    .main button {
+        margin: 10px;
+        border-radius: 5px;
+        padding: 5px;
+    }
+
+    /* Styling about file */
+    img {
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        padding: 2em;
+    }
+
+    .skills {
+        margin: 20px;
+        padding: 20px;
+        width: auto;
+        height: auto;
+    }
+
+    .skills>div {
+        background-color: rgb(6, 130, 202);
+        border-radius: 8px;
+        padding: 5px 0;
+    }
+
+    .skills>div>div {
+        background: linear-gradient(to right, rgb(85, 173, 240),
+                rgb(190, 230, 249), rgb(208, 229, 231));
+        text-align: right;
+        font-size: 10pxf;
+    }
+
+    .css {
+        width: 87%;
+        border-radius: 0 10px 10px 0;
+    }
+
+    .html {
+        width: 90%;
+        border-radius: 0 10px 10px 0;
+    }
+
+    .design {
+        width: 88%;
+        border-radius: 0 10px 10px 0;
+    }
+
+    .accessibility {
+        width: 80%;
+        border-radius: 0 10px 10px 0;
+    }
+
+    .animation {
+        width: 90%;
+        border-radius: 0 10px 10px 0;
+    }
+
+    #mainabout {
+        display: block;
+    }
+
+    /* Styling Projects file */
+    #h1 {
+        padding: 6em 1em 1em 1em;
+        text-align: center;
+        width: auto;
+
+    }
+
+    #h2 {
+        padding: 10px, 10px;
+        text-align: center;
+        width: auto;
+    }
+
+    #mainproject>div,
+    #mainservice>div {
+        background-color: rgb(132, 151, 248);
+        margin-bottom: 20px;
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        padding: 10px;
+    }
+
+    #mainhome {
+        padding-top: 13em;
+    }
+
+    /* Styling Contacts file */
+    #maincontact {
+        padding-top: 18em;
+    }
+
+    form {
+        background-color: rgb(119, 214, 231);
+        margin-top: 2em;
+        text-align: left;
+        padding: 2em 2em;
+        border-radius: 20px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="number"],
+    select {
+        width: 100%;
+        margin: 10px 0 10px 0;
+        padding: 5px 0;
+        border-radius: 5px;
+        outline: none;
+    }
+
+    textarea {
+        width: 100%;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        padding: 5px 5px;
+        border-radius: 5px;
+    }
+        .contacts h3, .platforms h3{
+        text-align: left;
+        margin-bottom: 10px;
+    }
+}
+
+/* Styling for the median screens (tablets)Styling for the median screens (tablets) */
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    .navb, details{
+        display: none;
+    }
+    ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+ul li{
+    margin-right:  80px;
+    text-align: right;
+    font-size: 20px;
+    /* margin-bottom: 0;
+    margin-top: 3em; */
+}
+.navbar{
+    margin: 60px 30px 10px 60px;
+    padding-left: 10px;
+    position: absolute;
+    left: 100px;
+    top: 10px;
+    right: 10px;
+    width: 70%;
+}
+
+    h1,
+    h2,
+    h3 {
+        width: auto;
+        text-align: center;
+    }
+
+    .header {
+        background-color: #15a2d1;
+        margin-bottom: 50px;
+        position: fixed;
+        width: 100%;
+        padding-bottom: 10px;
+    }
+
+    .logo {
+        border-radius: 50%;
+        background: linear-gradient(200deg, #184aac, #ffaa, #dd82ad);
+        text-align: center;
+        height: 100px;
+        width: 100px;
+        margin-left: 10px;
+        margin-top: 7px;
+        font-size: 40px;
+        color: green;
+    }
+
+    .navbar {
+        display: flex;
+        padding-bottom: 20px;
+        margin-left: 30px;
+    }
+
+    .navbar a {
+        text-decoration: none;
+    }
+
+    .main {
+        padding: 30px;
+        text-align: center;
+        height: auto;
+        display: block;
+    }
+
+    .myself {
+        padding-top: 10em;
+    }
+
+    .main button {
+        margin: 10px;
+        border-radius: 5px;
+        padding: 5px;
+    }
+
+    /* Styling about file */
+    img {
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        padding: 2em;
+    }
+
+    .skills {
+        margin: 20px;
+        padding: 20px;
+        width: auto;
+        height: auto;
+    }
+
+    .skills>div {
+        background-color: rgb(6, 130, 202);
+        border-radius: 8px;
+        padding: 5px 0;
+    }
+
+    .skills>div>div {
+        background: linear-gradient(to right, rgb(85, 173, 240),
+                rgb(190, 230, 249), rgb(208, 229, 231));
+        text-align: right;
+        font-size: 10pxf;
+    }
+
+    .css {
+        width: 87%;
+        border-radius: 0 10px 10px 0;
+    }
+
+    .html {
+        width: 90%;
+        border-radius: 0 10px 10px 0;
+    }
+
+    .design {
+        width: 88%;
+        border-radius: 0 10px 10px 0;
+    }
+
+    .accessibility {
+        width: 80%;
+        border-radius: 0 10px 10px 0;
+    }
+
+    .animation {
+        width: 90%;
+        border-radius: 0 10px 10px 0;
+    }
+
+    #mainabout {
+        display: block;
+    }
+
+    /* Styling Projects file */
+    #h1 {
+        padding: 6em 1em 1em 1em;
+        text-align: center;
+        width: auto;
+
+    }
+
+    #h2 {
+        padding: 10px, 10px;
+        text-align: center;
+        width: auto;
+    }
+
+    #mainproject>div,
+    #mainservice>div {
+        background-color: rgb(161, 224, 204);
+        margin-bottom: 10px;
+        margin-left: 10px;
+        height: auto;
+        border-radius: 10px;
+        padding: 10px;
+    }
+
+    #mainhome {
+        padding-top: 13em;
+    }
+
+    /* Styling Contacts file */
+    #maincontact {
+        padding-top: 18em;
+    }
+
+    form {
+        background-color: rgb(119, 214, 231);
+        margin-top: 2em;
+        text-align: left;
+        padding: 2em 2em;
+        border-radius: 20px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="number"],
+    select {
+        width: 100%;
+        margin: 10px 0 10px 0;
+        padding: 5px 0;
+        border-radius: 5px;
+        outline: none;
+    }
+
+    textarea {
+        width: 100%;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        padding: 5px 5px;
+        border-radius: 5px;
+    }
+    #mainservice,
+    #mainproject {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    #mainservice>div, #mainproject>div{
+        margin-right: 5px;
+    }
+        .contacts h3, .platforms h3{
+        text-align: left;
+        margin-bottom: 10px;
+    }
+}
+
+/* Styling for the big screens Styling for the big screens Styling for the big screens */
+@media (min-width: 1024px) {
+      * {
+        padding: 0;
+        margin: 0;
+    }
+    .navb, details{
+        display: none;
+    }
+    ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+ul li{
+    margin-right:  100px;
+    text-align: right;
+    font-size: 20px;
+    /* margin-bottom: 0;
+    margin-top: 3em; */
+}
+.navbar{
+    margin: 60px 30px 10px 60px;
+    padding-left: 10px;
+    position: absolute;
+    left: 250px;
+    top: 10px;
+    right: 10px;
+    width: 70%;
+}
+    h1,
+    h2,
+    h3 {
+        width: auto;
+        text-align: center;
+    }
+
+    .header {
+        background-color: #15a2d1;
+        margin-bottom: 1px;
+        display: flex;
+        position: fixed;
+        width: 100%;
+        padding-bottom: 10px;
+    }
+
+    .logo {
+        border-radius: 50%;
+        background: linear-gradient(200deg, #184aac, #ffaa, #dd82ad);
+        text-align: center;
+        height: 100px;
+        width: 100px;
+        margin-left: 10px;
+        margin-top: 7px;
+        font-size: 40px;
+        color: green;
+
+    }
+
+    .navbar {
+        padding-bottom: 20px;
+        margin-left: 30px;
+    }
+
+    .navbar a {
+        text-decoration: none;
+    }
+
+    .main {
+        padding: 30px;
+        text-align: center;
+        height: auto;
+        display: block;
+        margin: 0 5em;
+    }
+
+    .myself {
+        padding-top: 10em;
+    }
+
+    .main button {
+        margin: 10px;
+        border-radius: 5px;
+        padding: 5px;
+    }
+
+    /* Styling about file */
+    img {
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        margin-bottom: 2em;
+    }
+
+    .skills {
+        margin: 20px;
+        padding: 20px;
+        width: auto;
+        height: auto;
+    }
+
+    .skills>div {
+        background-color: rgb(6, 130, 202);
+        border-radius: 8px;
+        padding: 5px 0;
+    }
+
+    .skills>div>div {
+        background: linear-gradient(to right, rgb(85, 173, 240),
+                rgb(190, 230, 249), rgb(208, 229, 231));
+        text-align: right;
+        font-size: 10pxf;
+    }
+
+    .css {
+        width: 87%;
+        border-radius: 0 10px 10px 0;
+    }
+
+    .html {
+        width: 90%;
+        border-radius: 0 10px 10px 0;
+    }
+
+    .design {
+        width: 88%;
+        border-radius: 0 10px 10px 0;
+    }
+
+    .accessibility {
+        width: 80%;
+        border-radius: 0 10px 10px 0;
+    }
+
+    .animation {
+        width: 90%;
+        border-radius: 0 10px 10px 0;
+    }
+
+    #mainabout {
+        display: block;
+    }
+
+    /* Styling Projects file */
+    #h1 {
+        padding: 6em 1em 1em 1em;
+        text-align: center;
+        width: auto;
+
+    }
+
+    #h2 {
+        padding: 10px, 10px;
+        text-align: center;
+        width: auto;
+    }
+
+    #mainproject>div,
+    #mainservice>div {
+        background-color: rgb(161, 224, 204);
+        margin-bottom: 10px;
+        margin-left: 10px;
+        height: auto;
+        border-radius: 10px;
+        padding: 10px;
+    }
+
+    #mainhome {
+        padding-top: 13em;
+    }
+
+    /* Styling Contacts file */
+    #maincontact {
+        padding-top: 9em;
+    }
+
+    form {
+        background-color: rgb(119, 214, 231);
+        margin: 4em 4em;
+        text-align: left;
+        padding: 2em 2em;
+        border-radius: 20px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="number"],
+    select {
+        width: 100%;
+        margin: 10px 0 10px 0;
+        padding: 5px 0;
+        border-radius: 5px;
+        outline: none;
+    }
+
+    textarea {
+        width: 100%;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        padding: 5px 5px;
+        border-radius: 5px;
+    }
+    #mainservice,
+    #mainproject {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    #mainservice>div, #mainproject>div{
+        margin-right: 5px;
+    }
+    #maincontact>p>button{
+        width: 10em;
+        display: inline-block;
+    }
+    .footer{
+        display: flex;
+        padding: 0 5em;
+    }
+    .contacts, .platforms{
+        margin: 2em 5em;
+        width: 50%;
+    }
+    .contacts h3, .platforms h3{
+        text-align: left;
+        margin-bottom: 10px;
+    }
+}
