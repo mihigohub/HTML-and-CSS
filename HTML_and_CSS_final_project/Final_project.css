@@ -1,6 +1,7 @@
 body {
-    background: linear-gradient(to bottom, rgb(181, 221, 228), rgb(205, 231, 241), rgb(212, 233, 238));
+    background: linear-gradient(to bottom, white, rgb(228, 235, 236));
 }
+
 * {
     box-sizing: border-box;
     font-family: Tahoma, Geneva, Verdana, sans-serif;
@@ -12,7 +13,7 @@ button {
     margin: 10px;
     border-radius: 5px;
     padding: 5px;
-    background-color: rgb(34, 210, 127);
+    background-color: rgb(169, 4, 4);
 }
 
 span {
@@ -37,79 +38,97 @@ footer {
 .logo>h1 {
     margin-top: 5px;
 }
-.platforms>button{
-    background: linear-gradient(150deg, blue, #ee87ee,#ccfead,#f23);
+
+.platforms>button {
+    background: linear-gradient(150deg, blue, #ee87ee, #ccfead, #f23);
 }
-.map{
+
+.map {
     text-align: center;
     margin: 2em 0;
     height: auto;
     width: 100%;
 }
-.frame{
+
+.frame {
     border-radius: 20px;
     width: 80%;
     height: 400px;
     margin-top: 20px;
 }
-a:hover{
+
+a:hover {
     text-decoration: dotted underline;
     color: rgb(237, 211, 211);
 }
-#mainservice>div>div>img{
+
+#mainservice>div>div>img {
     border-radius: 10px;
     height: 200px;
     width: 90%;
     margin-top: 20px;
 }
-.image{
+
+.image {
     background: linear-gradient(130deg, #faa, #ff23, rgb(60, 60, 239), rgb(238, 61, 61));
     border-radius: 10px;
 }
-.headerdiv{
+
+.headerdiv {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding-right: 2em;
     width: 100%;
 }
-.welcometext>h1{
+
+.welcometext>h1 {
     font-size: 25px;
     color: white;
 }
+.welcometext{
+    margin: 20px 0 0 40px;
+}
+
 @media (min-width:100px) and (max-width: 767px) {
     * {
         padding: 0;
         margin: 0;
     }
-    .image>img{
-    border-radius: 10px;
-    height: 200px;
-    width: 90%;
-    margin-top: 20px;
-}
-    .navb{
-    display: block;
-    text-align: left;
-    padding: 10px;
-}
-details{
-    padding: 10px;
-    cursor: pointer;
-}
-a{
-    text-decoration: none;
-}
-summary{
-    font-size: 40px;
-    display: inline-block;
-}
-        ul {
-    list-style-type: none;
-    display: block;
-    margin: 0;
-    padding: 0;
-}
+
+    .image>img {
+        border-radius: 10px;
+        height: 200px;
+        width: 90%;
+        margin-top: 20px;
+    }
+
+    .navb {
+        display: block;
+        text-align: left;
+        padding: 10px;
+    }
+
+    details {
+        padding: 10px;
+        cursor: pointer;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    summary {
+        font-size: 40px;
+        display: inline-block;
+    }
+
+    ul {
+        list-style-type: none;
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
 
     h1,
     h2,
@@ -139,7 +158,8 @@ summary{
         font-size: 25px;
         color: green;
     }
-        .logo>h1 {
+
+    .logo>h1 {
         margin-top: 5px;
         font-size: 25px;
     }
@@ -160,7 +180,7 @@ summary{
     }
 
     .myself {
-        padding-top: 10em;
+        padding-top: 1em;
     }
 
     .main button {
@@ -239,17 +259,19 @@ summary{
         text-align: center;
         width: auto;
     }
+
     #mainproject>div,
     #mainservice>div {
-        background-color: rgb(132, 151, 248);
+        background-color: rgb(226, 210, 210);
         margin-bottom: 20px;
         width: 100%;
         height: auto;
         border-radius: 10px;
         padding: 10px;
     }
+
     #mainhome {
-        padding-top: 13em;
+        padding-top: 210px;
     }
 
     /* Styling Contacts file */
@@ -283,7 +305,9 @@ summary{
         padding: 5px 5px;
         border-radius: 5px;
     }
-        .contacts h3, .platforms h3{
+
+    .contacts h3,
+    .platforms h3 {
         text-align: left;
         margin-bottom: 10px;
     }
@@ -296,31 +320,34 @@ summary{
         padding: 0;
         margin: 0;
     }
-    .navb, details{
+
+    .navb,
+    details {
         display: none;
     }
+
     ul {
-    list-style-type: none;
-    display: flex;
-    margin: 0;
-    padding: 0;
-}
-ul li{
-    margin-right:  80px;
-    text-align: right;
-    font-size: 20px;
-    /* margin-bottom: 0;
+        list-style-type: none;
+        display: flex;
+        margin: 0;
+        padding: 0;
+    }
+
+    ul li {
+        margin-right: 20px;
+        text-align: right;
+        font-size: 20px;
+        /* margin-bottom: 0;
     margin-top: 3em; */
-}
-.navbar{
-    margin: 60px 30px 10px 60px;
-    padding-left: 10px;
-    position: absolute;
-    left: 100px;
-    top: 10px;
-    right: 10px;
-    width: 70%;
-}
+    }
+
+    .navbar {
+        margin: 60px 30px 10px 60px;
+        padding-left: 10px;
+        position: absolute;
+        bottom: -20px;
+        left: 500px;
+    }
 
     h1,
     h2,
@@ -348,7 +375,8 @@ ul li{
         font-size: 40px;
         color: green;
     }
-        .logo>h1 {
+
+    .logo>h1 {
         margin-top: 5px;
         font-size: 25px;
     }
@@ -361,17 +389,11 @@ ul li{
 
     .navbar a {
         text-decoration: none;
-    }
-
-    .main {
-        padding: 30px;
-        text-align: center;
-        height: auto;
-        display: block;
+        font-size: 14px;
     }
 
     .myself {
-        padding-top: 10em;
+        padding-top: 1em;
     }
 
     .main button {
@@ -435,6 +457,7 @@ ul li{
 
     #mainabout {
         display: block;
+        text-align: center;
     }
 
     /* Styling Projects file */
@@ -453,7 +476,7 @@ ul li{
 
     #mainproject>div,
     #mainservice>div {
-        background-color: rgb(161, 224, 204);
+        background-color: rgb(226, 210, 210);
         margin-bottom: 10px;
         margin-left: 10px;
         height: auto;
@@ -462,7 +485,8 @@ ul li{
     }
 
     #mainhome {
-        padding-top: 13em;
+        padding-top: 10em;
+        text-align: center;
     }
 
     /* Styling Contacts file */
@@ -496,15 +520,21 @@ ul li{
         padding: 5px 5px;
         border-radius: 5px;
     }
+
     #mainservice,
     #mainproject {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        margin: 0 30px;
     }
-    #mainservice>div, #mainproject>div{
+
+    #mainservice>div,
+    #mainproject>div {
         margin-right: 5px;
     }
-        .contacts h3, .platforms h3{
+
+    .contacts h3,
+    .platforms h3 {
         text-align: left;
         margin-bottom: 10px;
     }
@@ -512,35 +542,39 @@ ul li{
 
 /* Styling for the big screens Styling for the big screens Styling for the big screens */
 @media (min-width: 1024px) {
-      * {
+    * {
         padding: 0;
         margin: 0;
     }
-    .navb, details{
+
+    .navb,
+    details {
         display: none;
     }
+
     ul {
-    list-style-type: none;
-    display: flex;
-    margin: 0;
-    padding: 0;
-}
-ul li{
-    margin-right:  100px;
-    text-align: right;
-    font-size: 20px;
-    /* margin-bottom: 0;
+        list-style-type: none;
+        display: flex;
+        margin: 0;
+        padding: 0;
+    }
+
+    ul li {
+        margin-right: 20px;
+        text-align: right;
+        font-size: 20px;
+        /* margin-bottom: 0;
     margin-top: 3em; */
-}
-.navbar{
-    margin: 60px 30px 10px 60px;
-    padding-left: 10px;
-    position: absolute;
-    left: 250px;
-    top: 10px;
-    right: 10px;
-    width: 70%;
-}
+    }
+
+    .navbar {
+        margin: 60px 30px 10px 60px;
+        padding-left: 10px;
+        position: absolute;
+        bottom: -20px;
+        left: 850px;
+    }
+
     h1,
     h2,
     h3 {
@@ -568,6 +602,7 @@ ul li{
         font-size: 40px;
         color: green;
     }
+
     .logo>h1 {
         margin-top: 5px;
         font-size: 25px;
@@ -575,11 +610,11 @@ ul li{
 
     .navbar {
         padding-bottom: 20px;
-        margin-left: 30px;
     }
 
     .navbar a {
         text-decoration: none;
+        font-size: 14px;
     }
 
     .main {
@@ -591,7 +626,7 @@ ul li{
     }
 
     .myself {
-        padding-top: 10em;
+        padding-top: 1em;
     }
 
     .main button {
@@ -654,7 +689,14 @@ ul li{
     }
 
     #mainabout {
-        display: block;
+        display: flex;
+        text-align: center;
+
+    }
+
+    #mainabout>div {
+        width: 50%;
+        margin-top: 20px;
     }
 
     /* Styling Projects file */
@@ -673,7 +715,7 @@ ul li{
 
     #mainproject>div,
     #mainservice>div {
-        background-color: rgb(161, 224, 204);
+        background-color: rgb(226, 210, 210);
         margin-bottom: 10px;
         margin-left: 10px;
         height: auto;
@@ -682,7 +724,7 @@ ul li{
     }
 
     #mainhome {
-        padding-top: 13em;
+        padding-top: 8em;
     }
 
     /* Styling Contacts file */
@@ -716,27 +758,36 @@ ul li{
         padding: 5px 5px;
         border-radius: 5px;
     }
+
     #mainservice,
     #mainproject {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
     }
-    #mainservice>div, #mainproject>div{
+
+    #mainservice>div,
+    #mainproject>div {
         margin-right: 5px;
     }
-    #maincontact>p>button{
+
+    #maincontact>p>button {
         width: 10em;
         display: inline-block;
     }
-    .footer{
+
+    .footer {
         display: flex;
         padding: 0 5em;
     }
-    .contacts, .platforms{
+
+    .contacts,
+    .platforms {
         margin: 2em 5em;
         width: 50%;
     }
-    .contacts h3, .platforms h3{
+
+    .contacts h3,
+    .platforms h3 {
         text-align: left;
         margin-bottom: 10px;
     }
